@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TajMahalApp: App {
+    @State private var isLoading = true
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+          
+                WelcomeView()
+            }
         }
     }
-}
+
