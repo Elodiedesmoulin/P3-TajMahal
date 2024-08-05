@@ -10,24 +10,19 @@ import SwiftUI
 struct DetailView: View {
     let dish: Dish
     @Environment(\.presentationMode) var presentationMode
-
+    
     var body: some View {
         VStack(alignment: .leading) {
             ZStack(alignment: .topTrailing) {
                 Image(dish.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 340, height: 400)
+                    .frame(width: 350, height: 400)
                     .cornerRadius(15)
                     .padding(.horizontal)
                 
-                Image("\(dish.spiceLevel)")
-                     .foregroundColor(.gray)
-                     .frame(width: 70,height: 30)
-                     .background(.white)
-                     .cornerRadius(30)
-                     .padding(.horizontal, 25)
-                     .padding(.vertical, 10)
+                SpiceView(spiceLevel: dish.spiceLevel)
+                    .padding(.trailing, 40)
             }
             
             Spacer().frame(height: 20)
@@ -60,7 +55,7 @@ struct DetailView: View {
                 .foregroundColor(Color(.darkGray))
             
             Spacer()
-
+            
         }
         .padding()
         .navigationBarBackButtonHidden(true)
