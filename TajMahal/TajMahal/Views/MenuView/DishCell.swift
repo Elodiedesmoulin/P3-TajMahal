@@ -10,6 +10,7 @@ import SwiftUI
 struct DishCell: View {
     let dish: Dish
     
+    // Représente la cellule pour un plat en général
     var body: some View {
         HStack {
             Image(dish.imageName)

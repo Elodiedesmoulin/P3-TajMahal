@@ -11,6 +11,7 @@ struct MenuView: View {
     let viewModel = ViewModel()
     var body: some View {
         
+        //Display the dishes list
         List {
             MealSection(courseName: "Entrées", dishes: viewModel.apetizerArray)
             MealSection(courseName: "Plats Principaux", dishes: viewModel.mainCourseArray)

@@ -14,19 +14,21 @@ struct DetailView: View {
     var body: some View {
         VStack(alignment: .leading) {
             ZStack(alignment: .topTrailing) {
+                // Top image
                 Image(dish.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 350, height: 400)
                     .cornerRadius(15)
                     .padding(.horizontal)
-                
+                // Niveau de piment
                 SpiceView(spiceLevel: dish.spiceLevel)
                     .padding(.trailing, 40)
             }
             
             Spacer().frame(height: 20)
             
+            // Description détaillée du plat
             Text("Allergies:")
                 .padding(.horizontal, 20)
                 .font(.headline)
@@ -63,6 +65,7 @@ struct DetailView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 HStack {
+                    // Revenir à la page précédente
                     Button(action: {
                         self.presentationMode.wrappedValue.dismiss()
                     }) {

@@ -39,15 +39,19 @@ struct WelcomeView: View {
                     }
                     .padding(.top)
                     
-                    
+                    // Opening Hours
                     InformationView(imageName: "clock", leftText: "Mardi", rightText: "11h30 - 14h30 • 18h30 - 22h00")
                     
+                    // Service Type
                     InformationView(imageName: "takeoutbag.and.cup.and.straw.fill", leftText: "Type de Service", rightText: "À emporter")
                     
+                    // Adress
                     InformationView(imageName: "mappin.and.ellipse", leftText: "12 Avenue de la Brique - 75010 Paris", rightText: "")
                     
+                    //Website
                     InformationView(imageName: "globe", leftText: "www.tajmahal.fr", rightText: "")
                     
+                    //Phone Number
                     InformationView(imageName: "phone", leftText: "06 12 34 56 78", rightText: "")
                     
                     // Button

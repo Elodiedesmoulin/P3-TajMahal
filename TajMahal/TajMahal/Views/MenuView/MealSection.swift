@@ -11,7 +11,8 @@ struct MealSection: View {
     let viewModel: ViewModel = ViewModel()
     let courseName: String
     let dishes: [Dish]
-        
+    
+    // La séparation en section des différents types de plats
     var body: some View {
         Section(header: Text(courseName)
             .font(.headline)

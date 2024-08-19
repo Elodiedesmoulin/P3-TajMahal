@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SpiceView: View {
     let spiceLevel: SpiceLevel
+    
+    //Représente le niveau de piment correspondant à chaque plat
     var body: some View {
         let redchili = Image("redchili")
             .resizable()
