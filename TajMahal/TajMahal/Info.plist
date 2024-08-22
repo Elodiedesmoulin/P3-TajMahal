@@ -6,8 +6,8 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Fonts/PlusJakartaSans.ttf</string>
-		<string>Fonts/PlusJakartaSansBold.ttf</string>
+		<string>PlusJakartaSansBold.ttf</string>
+		<string>PlusJakartaSans.ttf</string>
 	</array>
 	<key>UILaunchScreen</key>
 	<dict>

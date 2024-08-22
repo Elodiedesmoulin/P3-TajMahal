@@ -20,6 +20,6 @@ struct InformationView: View {
             Spacer()
             Text(rightText)
         }
-        .font(.subheadline)
+        .font(.custom("PlusJakartaSans", size: 15))
     }
 }

@@ -27,7 +27,7 @@ struct DishCellView: View {
                     .foregroundColor(Color(.darkGray))
                 
                 Text(dish.description)
-                    .font(.subheadline)
+                    .font(.custom("PlusJakartaSans", size: 14))
                     .foregroundColor(Color(.darkGray))
                     .lineLimit(2)
                 

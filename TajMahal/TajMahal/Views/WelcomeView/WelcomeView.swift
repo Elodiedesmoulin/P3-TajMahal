@@ -20,7 +20,7 @@ struct WelcomeView: View {
                     HStack{
                         VStack{
                             Text("Restaurant Indien")
-                                .font(.subheadline)
+                                .font(.custom("PlusJakartaSans", size: 15))
                                 .foregroundColor(.gray)
                             
                             Text("Taj Mahal")
