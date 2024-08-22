@@ -24,5 +24,6 @@ struct Dish: Identifiable {
     var spiceLevel: SpiceLevel
     var imageName: String
     var price: String
+
 }
 
