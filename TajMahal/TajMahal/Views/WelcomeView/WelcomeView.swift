@@ -15,7 +15,7 @@ struct WelcomeView: View {
                 Image("TajMahal")
                 
                 
-                // Restaurant information
+                // Restaurant's informations
                 VStack(alignment: .leading, spacing: 20) {
                     HStack{
                         VStack{

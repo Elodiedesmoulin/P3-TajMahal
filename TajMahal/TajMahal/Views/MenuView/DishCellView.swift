@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct DishCell: View {
+struct DishCellView: View {
     let dish: Dish
     
-    // Représente la cellule pour un plat en général
+    // Represent cell for a dish
     var body: some View {
         HStack {
             Image(dish.imageName)
@@ -53,7 +53,7 @@ struct DishCell: View {
 }
 
 #Preview {
-    DishCell(dish: ViewModel().apetizerArray[0])
+    DishCellView(dish: ViewModel().apetizerArray[0])
 }
 
 

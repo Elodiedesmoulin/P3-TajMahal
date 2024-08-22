@@ -12,6 +12,7 @@ struct InformationView: View {
     let leftText: String
     let rightText: String
     
+    // Arrangement of an information line
     var body: some View {
         HStack {
             Image(systemName: imageName)

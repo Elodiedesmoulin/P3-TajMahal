@@ -18,8 +18,8 @@
 		F684780E2C5A337D0090A4C7 /* PlusJakartaSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F684780B2C5A337D0090A4C7 /* PlusJakartaSans.ttf */; };
 		F6C2DC282C5282E40043217B /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC272C5282E40043217B /* InformationView.swift */; };
 		F6C2DC2A2C52D14B0043217B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC292C52D14B0043217B /* DetailView.swift */; };
-		F6C2DC2C2C52DD450043217B /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC2B2C52DD450043217B /* DishCell.swift */; };
-		F6C2DC2E2C55435E0043217B /* MealSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC2D2C55435E0043217B /* MealSection.swift */; };
+		F6C2DC2C2C52DD450043217B /* DishCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC2B2C52DD450043217B /* DishCellView.swift */; };
+		F6C2DC2E2C55435E0043217B /* MealSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC2D2C55435E0043217B /* MealSectionView.swift */; };
 		F6C2DC322C58DB640043217B /* SpiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DC312C58DB640043217B /* SpiceView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +37,8 @@
 		F684780B2C5A337D0090A4C7 /* PlusJakartaSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlusJakartaSans.ttf; sourceTree = "<group>"; };
 		F6C2DC272C5282E40043217B /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		F6C2DC292C52D14B0043217B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		F6C2DC2B2C52DD450043217B /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
-		F6C2DC2D2C55435E0043217B /* MealSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSection.swift; sourceTree = "<group>"; };
+		F6C2DC2B2C52DD450043217B /* DishCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCellView.swift; sourceTree = "<group>"; };
+		F6C2DC2D2C55435E0043217B /* MealSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSectionView.swift; sourceTree = "<group>"; };
 		F6C2DC312C58DB640043217B /* SpiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
-				F6C2DC2B2C52DD450043217B /* DishCell.swift */,
-				F6C2DC2D2C55435E0043217B /* MealSection.swift */,
+				F6C2DC2B2C52DD450043217B /* DishCellView.swift */,
+				F6C2DC2D2C55435E0043217B /* MealSectionView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -203,11 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C2DC2C2C52DD450043217B /* DishCell.swift in Sources */,
+				F6C2DC2C2C52DD450043217B /* DishCellView.swift in Sources */,
 				428D2B532AFA882700BBA4F5 /* ViewModel.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
 				42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */,
-				F6C2DC2E2C55435E0043217B /* MealSection.swift in Sources */,
+				F6C2DC2E2C55435E0043217B /* MealSectionView.swift in Sources */,
 				F6C2DC2A2C52D14B0043217B /* DetailView.swift in Sources */,
 				F6C2DC282C5282E40043217B /* InformationView.swift in Sources */,
 				42E9DCAE2AF11136007CE7D0 /* TajMahalApp.swift in Sources */,

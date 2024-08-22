@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct MealSection: View {
+struct MealSectionView: View {
     let viewModel: ViewModel = ViewModel()
     let courseName: String
     let dishes: [Dish]
     
-    // La séparation en section des différents types de plats
+    // Sectionning the dishes between starter and main
     var body: some View {
         Section(header: Text(courseName)
             .font(.headline)
@@ -20,7 +20,7 @@ struct MealSection: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.leading, 5)) {
                 ForEach(dishes) { dish in
-                    DishCell(dish: dish)
+                    DishCellView(dish: dish)
                         .buttonStyle(PlainButtonStyle())
                         .padding(.horizontal, 1)
                         .background(Color.white)

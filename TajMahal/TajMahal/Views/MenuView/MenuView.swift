@@ -13,8 +13,8 @@ struct MenuView: View {
         
         //Display the dishes list
         List {
-            MealSection(courseName: "Entrées", dishes: viewModel.apetizerArray)
-            MealSection(courseName: "Plats Principaux", dishes: viewModel.mainCourseArray)
+            MealSectionView(courseName: "Entrées", dishes: viewModel.apetizerArray)
+            MealSectionView(courseName: "Plats Principaux", dishes: viewModel.mainCourseArray)
         }
         .padding(.horizontal, -25.0)
         .navigationBarTitleDisplayMode(.inline).toolbar{

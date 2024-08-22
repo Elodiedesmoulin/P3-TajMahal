@@ -28,7 +28,7 @@ struct DetailView: View {
             
             Spacer().frame(height: 20)
             
-            // Description détaillée du plat
+            // Detailed dish's description 
             Text("Allergies:")
                 .padding(.horizontal, 20)
                 .font(.headline)
@@ -65,7 +65,7 @@ struct DetailView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 HStack {
-                    // Revenir à la page précédente
+                    // Return to previous page
                     Button(action: {
                         self.presentationMode.wrappedValue.dismiss()
                     }) {
