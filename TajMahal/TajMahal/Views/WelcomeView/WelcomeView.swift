@@ -14,6 +14,7 @@ struct WelcomeView: View {
                 // Top image
                 Image("TajMahal")
                     .padding(.top)
+                    .padding(.bottom, -10)
                 
                 
                 // Restaurant's informations
