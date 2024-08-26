@@ -13,6 +13,7 @@ struct WelcomeView: View {
             VStack() {
                 // Top image
                 Image("TajMahal")
+                    .padding(.top)
                 
                 
                 // Restaurant's informations
@@ -70,6 +71,7 @@ struct WelcomeView: View {
             
             .padding(.horizontal, 30.0)
         }
+        
     }
 }
 
