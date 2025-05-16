@@ -2,25 +2,25 @@
 
 ## 📝 Description
 
-Ce projet a été réalisé dans le cadre du parcours développeur iOS sur OpenClassrooms.  
-L’objectif principal était de compléter une interface dynamique en SwiftUI à partir d’un template fourni.  
-L'application simule une fiche de présentation pour un lieu touristique, ici le Taj Mahal, en intégrant des éléments dynamiques et réactifs.
+Ce projet a été réalisé dans le cadre du parcours "Développeur iOS" sur OpenClassrooms.  
+L’objectif était de compléter une interface existante en SwiftUI en y ajoutant des composants dynamiques, en respectant les bonnes pratiques de conception (affichage conditionnel, composants réutilisables, interactions...).
 
 ## 🚀 Fonctionnalités
 
-- Affichage dynamique d’un lieu touristique
-- Utilisation de `ScrollView`, `LazyVStack` et `Image`
-- Intégration d'une `MapView` avec coordonnées du lieu
-- Utilisation de `@State` pour rendre certaines vues interactives
-- Affichage d'une section de photos supplémentaires
+- Interface principale simulant une fiche de présentation d’un lieu touristique (Taj Mahal)
+- Intégration d’une carte (`MapView`) avec position géographique
+- Boutons d’interaction (`@State`) pour afficher/masquer des sections
+- Mise en place de composants SwiftUI réutilisables
+- Utilisation des stacks, modificateurs, et gestion d’affichage conditionnel
 
 ## 🛠 Technologies utilisées
 
-- 🧑‍💻 **Swift 5**
-- 🖼 **SwiftUI**
-- 🧭 **Xcode 15**
-- 🧱 Architecture : MVVM simple
-- 🌐 Frameworks utilisés : `MapKit`, `SwiftUI`
+- Swift 5.9
+- SwiftUI (Xcode 15)
+- MapKit
+- Architecture MVVM simple
+
+## 📷 Captures d’écran
 
 ## 📷 Captures d’écran
 ![image](https://github.com/user-attachments/assets/1282496b-e5bd-4c0b-917e-29fa959408d5)
