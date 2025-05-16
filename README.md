@@ -7,9 +7,7 @@ L’objectif était de compléter une interface existante en SwiftUI en y ajouta
 
 ## 🚀 Fonctionnalités
 
-- Interface principale simulant une fiche de présentation d’un lieu touristique (Taj Mahal)
-- Intégration d’une carte (`MapView`) avec position géographique
-- Boutons d’interaction (`@State`) pour afficher/masquer des sections
+- Interface principale simulant une fiche de présentation des plats d'un restaurant (Taj Mahal)
 - Mise en place de composants SwiftUI réutilisables
 - Utilisation des stacks, modificateurs, et gestion d’affichage conditionnel
 
@@ -17,10 +15,7 @@ L’objectif était de compléter une interface existante en SwiftUI en y ajouta
 
 - Swift 5.9
 - SwiftUI (Xcode 15)
-- MapKit
 - Architecture MVVM simple
-
-## 📷 Captures d’écran
 
 ## 📷 Captures d’écran
 ![image](https://github.com/user-attachments/assets/1282496b-e5bd-4c0b-917e-29fa959408d5)
